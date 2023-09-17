@@ -1,0 +1,207 @@
+package com.suman.POM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RM extends Base {
+	
+	WebDriver driver;
+	
+	/*
+	 * Add / Manage Requests
+	 */
+	
+	@FindBy(id = "selRequests")
+	private WebElement  myRequests;
+	
+	@FindBy(id = "btnNew")
+	private WebElement  newRequest;
+	
+	@FindBy(id = "btnDelete")
+	private WebElement  requestDelete;
+    
+    @FindBy(id = "btnAddKitItems")
+	private WebElement  addKitItems;
+    
+    @FindBy(id = "btnAddItem")
+   	private WebElement  addItem;
+    
+    @FindBy(id = "jqgh_theGrid_theGrid_Quantity")
+   	private WebElement  gridQuantity;
+    
+    @FindBy(id = "theGrid_theGrid_Name")
+   	private WebElement  gridName;
+    
+    @FindBy(id = "jqgh_theGrid_theGrid_Number")
+   	private WebElement  gridNumber;
+    
+    @FindBy(id = "theGrid_theGrid_QuantityFilled")
+   	private WebElement  gridQuantityFilled;
+    
+    @FindBy(id = "theGrid_theGrid_IsFulFilled")
+   	private WebElement  gridQuantityIsFilled;
+    
+    @FindBy(id = "rbByName")
+   	private WebElement  byName;
+    
+    @FindBy(id = "rbByNumber")
+   	private WebElement  byNumber;
+    
+    @FindBy(name="InventoryItems")
+   	private WebElement  inventoryItems;
+    
+    @FindBy(name="selKit")
+   	private WebElement  kitItems;
+    
+    @FindBy(className="ui-pg-div")
+   	private WebElement  exportToExcel;
+    
+	@FindBy(id = "btnSave")
+	private WebElement  saveButton;
+	
+    @FindBy(id = "btnClose")
+	private WebElement  closeButton;
+	
+	
+    /*
+     * Find / Report Resource Usage
+     */
+	
+    
+    @FindBy(id = "tabTableView")
+	private WebElement  tableViewTab;
+    
+    @FindBy(id = "tabFilter")
+	private WebElement  filterTab;
+    
+    @FindBy(id = "selFilter")
+	private WebElement  selectFilter;
+    
+    
+    @FindBy(id = "tabReports")
+	private WebElement  reportsTab; 
+    
+    @FindBy(id = "btnLoadFilter")
+   	private WebElement  load; 
+    
+    @FindBy(id = "btnLoadApply")
+   	private WebElement  loadAndApply; 
+    
+    @FindBy(id = "btnSaveFilter")
+   	private WebElement  saveFilter; 
+    
+    @FindBy(id = "btnNewFilter")
+   	private WebElement  newFilter; 
+    
+    @FindBy(id = "btnManageFilter")
+   	private WebElement  messageFilter; 
+    
+    @FindBy(id = "selDept")
+   	private WebElement  departDropDown; 
+    
+    @FindBy(id = "selProg")
+   	private WebElement  programDropDown; 
+    
+    @FindBy(id = "selAct")
+   	private WebElement  activityDropDown; 
+    
+    @FindBy(id = "selCat1")
+   	private WebElement  fieldFilter1; 
+    
+    @FindBy(id = "selField1")
+   	private WebElement  fieldFilter2; 
+    
+    @FindBy(id = "selCat2")
+   	private WebElement  fieldFilter3; 
+    
+    @FindBy(id = "selField2")
+   	private WebElement  fieldFilter4; 
+    
+    @FindBy(id = "selOperator1")
+   	private WebElement  fieldFilterOPerator1; 
+    
+    @FindBy(id = "selOperator2")
+   	private WebElement  fieldFilterOPerator2; 
+    
+    @FindBy(name = "tbValues1")
+   	private WebElement  fieldFilterValue1; 
+    
+    @FindBy(id = "selInventory_Input")
+   	private WebElement  inventoryDropDown; 
+    
+    @FindBy(name = "tbValues2")
+   	private WebElement  fieldFilterValue2; 
+    
+    @FindBy(id = "rbAnd1")
+   	private WebElement  fieldFilterAnd; 
+    
+    @FindBy(id = "rbOr1")
+   	private WebElement  fieldFilterOr; 
+    
+    @FindBy(id = "btnAdvFilter")
+   	private WebElement  applyFilter; 
+    
+    @FindBy(id = "btnReset")
+   	private WebElement  clearFilter; 
+    
+    @FindBy(id = "btnClose")
+   	private WebElement  closeButtonResourceUsage; 
+    
+    /*
+     * Find Resource Usage/Reports
+     */
+    
+    @FindBy(id = "ui-id-4")
+   	private WebElement  dynamic; 
+    
+    @FindBy(id = "ui-id-5")
+   	private WebElement  traditional; 
+    
+    @FindBy(id = "btnDynamicPrint")
+   	private WebElement  print_Reports; 
+    
+    @FindBy(id = "btnDynamicPreview")
+   	private WebElement  preview_Reports; 
+    
+    @FindBy(id = "btnDynamicNew")
+   	private WebElement  new_Reports; 
+    
+    @FindBy(id = "btnDynamicCopy")
+   	private WebElement  copy_Reports; 
+    
+    @FindBy(id = "btnDynamicEdit")
+   	private WebElement  edit_Reports; 
+    
+    @FindBy(id = "btnDynamicDelete")
+   	private WebElement  delete_Reports; 
+    
+    @FindBy(id = "btnClose")
+   	private WebElement  close_Reports; 
+    
+    @FindBy(linkText = "All")
+   	private WebElement  all_Category; 
+    
+    @FindBy(linkText = "Standard")
+   	private WebElement  standard_Category; 
+    
+    @FindBy(linkText = "Biweekly Time By Department")
+   	private WebElement  report_Template; 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	
+	
+	
+	
+
+}

@@ -1,0 +1,5 @@
+ //input[conatains(@id,'st')]
+
+ //input[starts-with(@id,'st')]
+
+//input[text(),'gmail']
